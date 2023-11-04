@@ -10,7 +10,7 @@ This plan is for students starting the programme the fall semester 2023 and late
 
 ### Year 1
 **SP 1:** ✔️ Information Systems and Data (C1ID1A) | ✔️ Programming Techniques in C# (C1PT1A)  
-**SP 2:** System Analysis & Design (C1SD1A) | Database Technology for Developers (C1DB1A)  
+**SP 2:** ⏳ System Analysis & Design (C1SD1A) | ⏳ Database Technology for Developers (C1DB1A)  
 **SP 3:** Trends in a Digital World | Fundamental Data Structures and Algorithms in C#  
 **SP 4:** Object-Oriented Programming in C# | Cybersecurity for Developers  
 
