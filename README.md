@@ -8,7 +8,7 @@ This plan is for students starting the programme the fall semester 2023 and late
 
 | Year | Period |  | Course - 50% |  | Course - 50% |
 |---|---|---|---|---|---|
-| 1 | SP 1 | :heavy_check_mark: | Information Systems and Data - C1ID1A | :heavy_check_mark: | Programming Techniques in C# - C1PT1A |
+| 1 | SP 1 | ✓ | Information Systems and Data - C1ID1A | ✓ | Programming Techniques in C# - C1PT1A |
 |  | SP 2 |  | System Analysis & Design - C1SD1A |  | Database Technology for Developers - C1DB1A |
 |  | SP 3 |  | Trends in a Digital World - C1TD1A |  | Fundamental Data Structures and Algorithms in C# - C1FA1A |
 |  | SP 4 |  | Object-Oriented Programming in C# - C1OP1A |  | Cybersecurity for Developers - C1CD1A |
