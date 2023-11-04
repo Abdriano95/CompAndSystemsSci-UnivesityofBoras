@@ -1,0 +1,14 @@
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\bin\Debug\net6.0\Lab1-HangmanGame.exe
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\bin\Debug\net6.0\Lab1-HangmanGame.deps.json
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\bin\Debug\net6.0\Lab1-HangmanGame.runtimeconfig.json
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\bin\Debug\net6.0\Lab1-HangmanGame.dll
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\bin\Debug\net6.0\Lab1-HangmanGame.pdb
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\obj\Debug\net6.0\Lab1-HangmanGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\obj\Debug\net6.0\Lab1-HangmanGame.AssemblyInfoInputs.cache
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\obj\Debug\net6.0\Lab1-HangmanGame.AssemblyInfo.cs
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\obj\Debug\net6.0\Lab1-HangmanGame.csproj.CoreCompileInputs.cache
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\obj\Debug\net6.0\Lab1-HangmanGame.dll
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\obj\Debug\net6.0\refint\Lab1-HangmanGame.dll
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\obj\Debug\net6.0\Lab1-HangmanGame.pdb
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\obj\Debug\net6.0\Lab1-HangmanGame.genruntimeconfig.cache
+C:\Users\Abdulla\OneDrive - University of Borås\Kurser\År1\Programmeringsteknik i C# - C1PT1A\Lab1-HangmanGame\Lab1-HangmanGame\obj\Debug\net6.0\ref\Lab1-HangmanGame.dll
