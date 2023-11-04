@@ -38,7 +38,25 @@ Upon completion, students can apply for the following degree:
 ## Quality Assurance
 The program is subject to continuous evaluation to ensure quality. Each course and the program as a whole are evaluated annually, with feedback provided to students via the learning platform.
 
-## Disclaimer
+# System Architecture Program - Collaborative Projects
+
+## Overview
+This repository contains various projects and assignments completed as part of the System Architecture program with a specialization in Software Development. It includes both individual and collaborative works that showcase the application of theoretical knowledge in practical scenarios.
+
+## Collaborative Work
+Several projects and assignments presented in this repository were developed in collaboration with fellow students. These collaborative efforts are a testament to the importance of teamwork in software development and the collective problem-solving process.
+
+## Anonymity and Privacy
+In respect to privacy and academic integrity, individual contributors of group projects are not listed by name within this repository. The collaborative nature of the work is acknowledged, and the intellectual property is shared among the contributors.
+
+## Usage and Conduct
+The materials in this repository are intended for reference and educational purposes only. They are not to be copied or used as submissions for academic credit by other students. Users are encouraged to draw inspiration from the work and to engage in their own learning process.
+
+## Acknowledgements
+I would like to extend my gratitude to all my peers who have contributed to the group projects and assignments. Their insights and efforts have been invaluable to the successful completion of the collaborative works.
+
+# Disclaimer
+Please note that while this repository is public, the projects and assignments are the intellectual property of the authors and are not to be copied or used without proper attribution. Any academic misconduct related to the misuse of the content in this repository will be addressed according to the academic policies of the respective institutions.
 
 The materials and resources provided in this repository are for educational purposes only. They are meant to support the learning process for students enrolled in the Computer and Systems Science program with a Specialization in Software Development at the University of Borås.
 
