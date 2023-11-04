@@ -1,4 +1,4 @@
-# Course: Information Systems and Data (Informationssystem och data) (C1ID1A)
+# Information Systems and Data (Informationssystem och data) (C1ID1A)
 
 ## Course Description
 This course offers an introduction to information systems and data from technical, organizational, and societal perspectives. It covers fundamental concepts within information systems and systems theory, as well as the organizational prerequisites for information systems. The course also delves into modern applications within organizations and society, especially concerning current research in artificial intelligence. Additionally, it includes an introduction to information retrieval and academic writing.
