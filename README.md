@@ -1,6 +1,26 @@
 # Computer and Systems Science, specialisation in Software Development
 This is my student repository from my program computer and systems Science, specialisation in software development at the University of Borås
 
+#### Study Plan for the Programme:
+```
+This plan is for students starting the programme the fall semester 2023 and later.
+```
+
+| Year | Period |  | Course - 50% |  | Course - 50% |
+|---|---|---|---|---|---|
+| 1 | SP 1 |  | Information Systems and Data - C1ID1A |  | Programming Techniques in C# - C1PT1A |
+|  | SP 2 |  | System Analysis & Design - C1SD1A |  | Database Technology for Developers - C1DB1A |
+|  | SP 3 |  | Trends in a Digital World - C1TD1A |  | Fundamental Data Structures and Algorithms in C# - C1DA1A |
+|  | SP 4 |  | Effective DevOps - C1ED1A |  | Development of Web Applications - C1WA1A |
+| 2 | SP 1 |  | Object-Oriented Programming in C# - C2OP1A |  | Cybersecurity for Developers - C2CD1A |
+|  | SP 2 |  | Development of Mobile Applications - C2MA1A |  | Applied Machine Learning - C2ML1A |
+|  | SP 3 |  | Parallel and Distributed Programming - C2PD1A |  | Change Management & Design of Information Systems - C2CD1A |
+|  | SP 4 |  | Software Development Project - C2SD1A |  | Data Visualization - C2DV1A |
+| 3 | SP 1 |  | Fundamental Game Development with Unity - C3GD1A |  | Application of AI Agents in Unity - C3AA1A |
+|  | SP 2 |  | Research Methods in IT - C3RM1A |  | Independent Work for Bachelor's Degree in Informatics - C3IW1A |
+|  | SP 3 |  | Testing of IT Systems - C3TS1A |  | Elective Course |
+|  | SP 4 |  | Elective Course |  | Elective Course |
+
 ## Overview
 The Computer and Systems Science, specialisation in Software Development, is a comprehensive education plan that spans 180 higher education credits. It is designed to develop students' abilities in system and software development across various platforms, tools, programming languages, and application areas.
 
