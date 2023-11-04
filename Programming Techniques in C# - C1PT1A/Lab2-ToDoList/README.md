@@ -1,7 +1,7 @@
 # Lab 2: ToDo List Application
 
 ## Description
-This is a simple console-based ToDo List application written in C#. It allows users to add tasks to a list, view the list of tasks, and mark tasks as completed. The application demonstrates basic CRUD (Create, Read, Update, Delete) operations in a console environment.
+This is a simple console-based ToDo List application written in C#. It allows users to add tasks to a list, view the list of tasks, and mark tasks as completed. The application demonstrates basic CRUD (Create, Read, Update, Delete(without delete)) operations in a console environment.
 
 ## How to Run
 To run the application, follow these steps:
@@ -25,8 +25,9 @@ To run the application, follow these steps:
 ## Development Environment
 The project is developed using C# in the .NET framework, utilizing Visual Studio as the integrated development environment (IDE).
 
-## Author
+## Authors
 [Abdriano95](https://github.com/Abdriano95)
+[ActuallyRaspy](https://github.com/ActuallyRaspy)
 
 ## License
 This project is open-sourced under the MIT License. For more information, see the [LICENSE](LICENSE) file in the repository.
