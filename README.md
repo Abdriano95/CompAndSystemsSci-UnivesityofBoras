@@ -6,20 +6,26 @@ This is my student repository from my program computer and systems Science, spec
 This plan is for students starting the programme the fall semester 2023 and later.
 ```
 
-| Year | Period |  | Course - 50% | Completion | Course - 50% | Completion |
-|---|---|---|---|---|---|---|
-| 1 | SP 1 |  | Information Systems and Data - C1ID1A | Done | Programming Techniques in C# - C1PT1A | Done |
-|  | SP 2 |  | System Analysis & Design - C1SD1A |  | Database Technology for Developers - C1DB1A |  |
-|  | SP 3 |  | Trends in a Digital World - C1TD1A |  | Fundamental Data Structures and Algorithms in C# - C1FA1A |  |
-|  | SP 4 |  | Object-Oriented Programming in C# - C1OP1A |  | Cybersecurity for Developers - C1CD1A |  |
-| 2 | SP 1 |  | Development of Web Applications - C2WA1A |  | Applied Machine Learning - C2ML1A |  |
-|  | SP 2 |  | Development of Mobile Applications - C2MA1A |  | Testing of IT Systems - C2TS1A |  |
-|  | SP 3 |  | Effective DevOps - C2ED1A |  | Object-Oriented Software Development - C2OS1A |  |
-|  | SP 4 |  | Fundamental Game Development with Unity - C2FG1A |  | Change Management & Design of Information Systems - C2CM1A |  |
-| 3 | SP 1 |  | Data Visualization - C3DV1A |  | Parallel and Distributed Programming - C3PD1A |  |
-|  | SP 2 |  |  |  | Software Development Project |  |
-|  | SP 3 |  | Application of AI Agents in Unity - C3AA1A |  | Research Methods in IT - C3RM1A |  |
-|  | SP 4 |  |  |  | Bachelor's Thesis in Informatics |  |
+## Course Completion Overview
+
+### Year 1
+**SP 1:** ✓ Information Systems and Data (C1ID1A) | ✓ Programming Techniques in C# (C1PT1A)  
+**SP 2:** System Analysis & Design (C1SD1A) | Database Technology for Developers (C1DB1A)  
+**SP 3:** Trends in a Digital World | Fundamental Data Structures and Algorithms in C#  
+**SP 4:** Object-Oriented Programming in C# | Cybersecurity for Developers  
+
+### Year 2
+**SP 1:** Development of Web Applications | Applied Machine Learning  
+**SP 2:** Development of Mobile Applications | Testing of IT Systems  
+**SP 3:** Effective DevOps | Object-Oriented Software Development  
+**SP 4:** Fundamental Game Development with Unity | Change Management & Design of Information Systems  
+
+### Year 3
+**SP 1:** Data Visualization | Parallel and Distributed Programming  
+**SP 2:** Software Development Project  
+**SP 3:** Application of AI Agents in Unity | Research Methods in IT  
+**SP 4:** Bachelor's Thesis in Informatics  
+
 
 
 
