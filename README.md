@@ -17,9 +17,9 @@ This plan is for students starting the programme the fall semester 2023 and late
 |  | SP 3 |  | Effective DevOps |  | Object-Oriented Software Development |
 |  | SP 4 |  | Fundamental Game Development with Unity |  | Change Management & Design of Information Systems |
 | 3 | SP 1 |  | Data Visualization  |  | Parallel and Distributed Programming |
-|  | SP 2 |  | Software Development Project |
+|  | SP 2 |                        | Software Development Project |
 |  | SP 3 |  | Application of AI Agents in Unity |  | Research Methods in IT |
-|  | SP 4 |  | Bacherlor's thesis in Informatics |
+|  | SP 4 |                     | Bacherlor's thesis in Informatics |
 
 ## Overview
 The Computer and Systems Science, specialisation in Software Development, is a comprehensive education plan that spans 180 higher education credits. It is designed to develop students' abilities in system and software development across various platforms, tools, programming languages, and application areas.
