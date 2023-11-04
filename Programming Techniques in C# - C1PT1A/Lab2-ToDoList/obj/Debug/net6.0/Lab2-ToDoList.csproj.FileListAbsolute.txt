@@ -1,0 +1,14 @@
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\bin\Debug\net6.0\Lab2-ToDoList.exe
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\bin\Debug\net6.0\Lab2-ToDoList.deps.json
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\bin\Debug\net6.0\Lab2-ToDoList.runtimeconfig.json
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\bin\Debug\net6.0\Lab2-ToDoList.dll
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\bin\Debug\net6.0\Lab2-ToDoList.pdb
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\obj\Debug\net6.0\Lab2-ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\obj\Debug\net6.0\Lab2-ToDoList.AssemblyInfoInputs.cache
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\obj\Debug\net6.0\Lab2-ToDoList.AssemblyInfo.cs
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\obj\Debug\net6.0\Lab2-ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\obj\Debug\net6.0\Lab2-ToDoList.dll
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\obj\Debug\net6.0\refint\Lab2-ToDoList.dll
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\obj\Debug\net6.0\Lab2-ToDoList.pdb
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\obj\Debug\net6.0\Lab2-ToDoList.genruntimeconfig.cache
+C:\Users\Abdulla\OneDrive - University of Borås\Github-repo\CompAndSystemsSci-UnivesityofBoras\Programming Techniques in C# - C1PT1A\Lab2-ToDoList\obj\Debug\net6.0\ref\Lab2-ToDoList.dll
