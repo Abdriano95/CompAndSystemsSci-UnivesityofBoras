@@ -28,3 +28,7 @@ The project is developed with C# in the .NET environment.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Notice
+
+Please refer to the disclaimer in the repository's root for terms of use governing the content within this directory.
