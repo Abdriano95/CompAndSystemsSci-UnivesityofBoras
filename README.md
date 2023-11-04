@@ -17,9 +17,9 @@ This plan is for students starting the programme the fall semester 2023 and late
 |  | SP 3 |  | Effective DevOps - C2ED1A |  | Object-Oriented Software Development - C2OS1A |
 |  | SP 4 |  | Fundamental Game Development with Unity - C2FG1A |  | Change Management & Design of Information Systems - C2CM1A |
 | 3 | SP 1 |  | Data Visualization - C3DV1A |  | Parallel and Distributed Programming - C3PD1A |
-|  | SP 2 |  | &nbsp; | **Software Development Project** | &nbsp; |
+|  | SP 2 |  |  | Software Development Project |  |
 |  | SP 3 |  | Application of AI Agents in Unity - C3AA1A |  | Research Methods in IT - C3RM1A |
-|  | SP 4 |  | &nbsp; | **Bachelor's Thesis in Informatics** | &nbsp; |
+|  | SP 4 |  |  | Bachelor's Thesis in Informatics |  |
 
 
 ## Overview
