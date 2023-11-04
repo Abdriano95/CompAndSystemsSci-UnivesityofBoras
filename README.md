@@ -38,3 +38,11 @@ Upon completion, students can apply for the following degree:
 ## Quality Assurance
 The program is subject to continuous evaluation to ensure quality. Each course and the program as a whole are evaluated annually, with feedback provided to students via the learning platform.
 
+## Disclaimer
+
+The materials and resources provided in this repository are for educational purposes only. They are meant to support the learning process for students enrolled in the Computer and Systems Science program with a Specialization in Software Development at the University of Borås.
+
+While collaboration and discussion are encouraged, direct copying and unauthorized use of the content for academic submissions are strictly prohibited. Students are expected to adhere to their academic institution's policies on academic integrity and honesty.
+
+By using and accessing these resources, you agree to do so responsibly, and not to distribute or use the content for any dishonest academic conduct. Any infringement of these guidelines may be subject to disciplinary action by the respective educational institution.
+
