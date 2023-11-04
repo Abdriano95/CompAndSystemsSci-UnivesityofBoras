@@ -35,4 +35,6 @@ The course literature is in English and Swedish, including texts such as:
 ## Additional Information
 The course is part of the Computer and Systems Science, specialisation in Software Development program and is evaluated according to the guidelines for course evaluations at the University of Borås.
 
+## Notice
 
+Please refer to the disclaimer in the repository's root for terms of use governing the content within this directory.
