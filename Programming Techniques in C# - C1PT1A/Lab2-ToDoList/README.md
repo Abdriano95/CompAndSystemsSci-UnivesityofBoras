@@ -31,3 +31,7 @@ The project is developed using C# in the .NET framework, utilizing Visual Studio
 
 ## License
 This project is open-sourced under the MIT License. For more information, see the [LICENSE](LICENSE) file in the repository.
+
+## Notice
+
+Please refer to the disclaimer in the repository's root for terms of use governing the content within this directory.
