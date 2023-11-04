@@ -23,12 +23,12 @@ By the end of the course, students will be able to:
 ### Teaching Methods
 The course is primarily delivered in Swedish (with potential English sessions), encompassing lectures, workshop guidance, and lab supervision.
 
-## Notice
-
-Please refer to the disclaimer in the repository's root for terms of use governing the content within this directory.
-
 ### Assessment
 Evaluation is based on a written individual exam and group programming assignments, with a grading scale of Fail, Pass, or Pass with Distinction.
 
 ### Additional Information
 This course is a part of the Computer and Systems Science, with specialisation in Software Development program with an emphasis on software development at the University of Borås.
+
+## Notice
+
+Please refer to the disclaimer in the repository's root for terms of use governing the content within this directory.
