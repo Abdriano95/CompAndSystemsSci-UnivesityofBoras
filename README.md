@@ -17,9 +17,9 @@ This plan is for students starting the programme the fall semester 2023 and late
 |  | SP 3 |  | Effective DevOps |  | Object-Oriented Software Development |
 |  | SP 4 |  | Fundamental Game Development with Unity |  | Change Management & Design of Information Systems |
 | 3 | SP 1 |  | Data Visualization  |  | Parallel and Distributed Programming |
-|  | SP 2 | <td colspan="5" align="center">Software Development Project</td>
+|  | SP 2 |  | Software Development Project | colspan="3" align="center" |  |
 |  | SP 3 |  | Application of AI Agents in Unity |  | Research Methods in IT |
-|  | SP 4 | <td colspan="5" align="center">Bachelor's Thesis in Informatics</td>
+|  | SP 4 |  | Bachelor's Thesis in Informatics | colspan="3" align="center" |  |
 
 
 ## Overview
