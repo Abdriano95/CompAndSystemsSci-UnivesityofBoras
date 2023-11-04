@@ -41,7 +41,7 @@ The program is subject to continuous evaluation to ensure quality. Each course a
 # Collaborative Projects
 
 ## Overview
-This repository contains various projects and assignments completed as part of the System Architecture program with a specialization in Software Development. It includes both individual and collaborative works that showcase the application of theoretical knowledge in practical scenarios.
+This repository contains various projects and assignments completed as part of the Computer and Systems Science program with a Specialization in Software Development. It includes both individual and collaborative works that showcase the application of theoretical knowledge in practical scenarios.
 
 ## Collaborative Work
 Several projects and assignments presented in this repository were developed in collaboration with fellow students. These collaborative efforts are a testament to the importance of teamwork in software development and the collective problem-solving process.
