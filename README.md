@@ -38,7 +38,7 @@ Upon completion, students can apply for the following degree:
 ## Quality Assurance
 The program is subject to continuous evaluation to ensure quality. Each course and the program as a whole are evaluated annually, with feedback provided to students via the learning platform.
 
-# System Architecture Program - Collaborative Projects
+# Collaborative Projects
 
 ## Overview
 This repository contains various projects and assignments completed as part of the System Architecture program with a specialization in Software Development. It includes both individual and collaborative works that showcase the application of theoretical knowledge in practical scenarios.
