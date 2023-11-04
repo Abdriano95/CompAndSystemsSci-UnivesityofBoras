@@ -1,6 +1,5 @@
 # Computer and Systems Science, specialisation in Software Development
 This is my student repository from my program computer and systems Science, specialisation in software development at the University of Borås
-# System Architecture Program with a Specialization in Software Development (SYARK)
 
 ## Overview
 The Computer and Systems Science, specialisation in Software Development, is a comprehensive education plan that spans 180 higher education credits. It is designed to develop students' abilities in system and software development across various platforms, tools, programming languages, and application areas.
