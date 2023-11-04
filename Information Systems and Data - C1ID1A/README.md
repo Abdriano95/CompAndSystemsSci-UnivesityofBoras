@@ -33,6 +33,6 @@ The course literature is in English and Swedish, including texts such as:
 - Additional scientific articles and lecture materials as directed by the instructor.
 
 ## Additional Information
-The course is part of the System Architecture program with a focus on software development and is evaluated according to the guidelines for course evaluations at the University of Borås.
+The course is part of the Computer and Systems Science, specialisation in Software Development program and is evaluated according to the guidelines for course evaluations at the University of Borås.
 
 
