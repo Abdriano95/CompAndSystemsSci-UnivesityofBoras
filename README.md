@@ -1,5 +1,33 @@
 # Computer and Systems Science, specialisation in Software Development
-This is my student repository from my program computer and systems Science, specialisation in software development at the University of Borås
+This is my student repository from my program computer and systems science, specialisation in software development at the University of Borås
+
+#### Study Plan for the Programme:
+```
+This plan is for students starting the programme the fall semester 2023 and later.
+```
+
+## Course Completion Overview
+
+### Year 1
+**SP 1:** ✔️ [Information Systems and Data (C1ID1A)](https://github.com/Abdriano95/CompAndSystemsSci-UnivesityofBoras/tree/main/Information%20Systems%20and%20Data%20-%20C1ID1A) | ✔️ [Programming Techniques in C# (C1PT1A)](https://github.com/Abdriano95/CompAndSystemsSci-UnivesityofBoras/tree/main/Programming%20Techniques%20in%20C%23%20-%20C1PT1A)  
+**SP 2:** ⏳ System Analysis & Design (C1SD1A) | ⏳ Database Technology for Developers (C1DB1A)  
+**SP 3:** Trends in a Digital World | Fundamental Data Structures and Algorithms in C#  
+**SP 4:** Object-Oriented Programming in C# | Cybersecurity for Developers  
+
+### Year 2
+**SP 1:** Development of Web Applications | Applied Machine Learning  
+**SP 2:** Development of Mobile Applications | Testing of IT Systems  
+**SP 3:** Effective DevOps | Object-Oriented Software Development  
+**SP 4:** Fundamental Game Development with Unity | Change Management & Design of Information Systems  
+
+### Year 3
+**SP 1:** Data Visualization | Parallel and Distributed Programming  
+**SP 2:** Software Development Project  
+**SP 3:** Application of AI Agents in Unity | Research Methods in IT  
+**SP 4:** Bachelor's Thesis in Informatics  
+
+
+
 
 ## Overview
 The Computer and Systems Science, specialisation in Software Development, is a comprehensive education plan that spans 180 higher education credits. It is designed to develop students' abilities in system and software development across various platforms, tools, programming languages, and application areas.
