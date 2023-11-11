@@ -1,7 +1,9 @@
-﻿using System;
-
-bool appRun = true;
+﻿bool appRun = true;
 bool korrupt = false;
+string korruptBeskrivning = "Korrupt beskrivning: Får inte vara tom, var vänlig och ändra till rätt format i .csv-filen";
+string korruptDeadLine = "ERROR";
+string korruptTidsåtgång = "ERROR)";
+string korruptKlar = "ERROR";
 const string fil = "UppgiftLista.csv";
 Uppgift[] uppgifter = new Uppgift[0]; //Skapa en tom Uppgift array för att lagra uppgifter 
 int antalUppgifter = uppgifter.Length; // räknare 
@@ -27,41 +29,56 @@ while (appRun) // Huvudprogrammet, appRun flaggan bestämmer om programmet körs
             switch (användareInmatning) // Show list
             {
                 case "1": // Lägg till uppgift
-                    LäggTillNyUppgift();
-                    LäggTillFil();
-                    break;
+                    try
+                    {
+                        LäggTillNyUppgift();
+                        LäggTillFil();
+                        break;
+
+                    }
+                    catch (IOException)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("ERROR: Kan inte lägga till uppgifter ovanpå tomma rader i csv-filen!");
+                        Console.ForegroundColor = ConsoleColor.White;
+                        break;
+                    }
+
 
                 case "2": // Markera uppgift som klar
-                    if (uppgifter.Length == 0)
+                    try
                     {
-                        Console.WriteLine("Inga uppgifter att markera");
-                        break;
-                    }
-                    else
-                    {
-                        if (MarkeraUppgiftSomKlar() < 0)
+                        if (uppgifter.Length == 0)
                         {
+                            Console.WriteLine("Inga uppgifter att markera");
                             break;
                         }
                         else
-                            LäggTillFil();
+                        {
+                            if (MarkeraUppgiftSomKlar() < 0)
+                            {
+                                break;
+                            }
+                            else
+                                LäggTillFil();
+                            break;
+                        }
+
+                    }
+                    catch (IOException)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("GÅ FIXA DINA TOMMA RADER INNAN DU MARKERAR EN UPPGIFSOM KLAR");
+                        Console.ForegroundColor = ConsoleColor.White;
                         break;
                     }
 
+
                 case "3": //Visa uppgift
-                    if (uppgifter.Length == 0 || korrupt)
+                    if (uppgifter.Length == 0)
                     {
-                        if (korrupt)
-                        {
-                            VisaUppgifter();
-                            användareInmatning = null;
-                            break;
-                        }
-                        else
-                        {
-                            Console.WriteLine("Inga uppgifter, snälla lägg till!");
-                            break;
-                        }
+                        Console.WriteLine("Inga uppgifter, snälla lägg till!");
+                        break;
                     }
                     else
                     {
@@ -74,8 +91,9 @@ while (appRun) // Huvudprogrammet, appRun flaggan bestämmer om programmet körs
                     while (!valideraInput(användareInmatning, 4))
                     {
                         Console.WriteLine("Är du säker att du vill avsluta? Y/N");
-                        användareInmatning = Console.ReadLine().ToLower();
+                        användareInmatning = Console.ReadLine()?.ToLower();
                         if (användareInmatning == "y")
+
                         {
                             appRun = false;
                         }
@@ -155,6 +173,11 @@ void LäggTillNyUppgift() //Lägger till ny uppgift i uppgift vektorn
                 inmatning = null;
                 break;
             }
+            else
+            {
+                Console.WriteLine("Ogiltig inmatning!");
+                continue;
+            }
         }
         uppgift.IsCompleted = false;
         uppgifter[antalUppgifter - 1] = uppgift;
@@ -165,26 +188,29 @@ void LäggTillNyUppgift() //Lägger till ny uppgift i uppgift vektorn
 
 void VisaUppgifter() // Visa uppgifter i uppgift vektorn 
 {
-    if (korrupt) // Om någon rad i filen är i ogiltigt format eller på annat sätt inkorrekt, skriv ut felmeddelande
+    string deadline = "";
+    string tid = "";
+    string klar = "";
+    Console.WriteLine("Dina aktuella uppgifter:\n");
+    Console.WriteLine($"{"ID",-6} {"Deadline",-14} {"Tid",-8} {"Vad"}");
+    for (int i = 0; i < uppgifter.Length; i++)
     {
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("FILEN ÄR KORRUPT!");
+        if (uppgifter[i].Deadline == DateTime.MinValue) { deadline = uppgifter[i].Deadline.ToString(korruptDeadLine); }
+        else { deadline = uppgifter[i].Deadline.ToString("yyyy'-'MM'-'dd"); }
+
+        if (uppgifter[i].EstimatedHours == -375) { tid = uppgifter[i].EstimatedHours.ToString(korruptTidsåtgång); }
+        else { tid = uppgifter[i].EstimatedHours.ToString(); }
+
+
+        SättFärg(uppgifter[i].Deadline, uppgifter[i].IsCompleted);
+        Console.WriteLine($"{i + 1 + ".",-6} {deadline,-14} {tid + "h",-9}" +
+        $"{uppgifter[i].Task}");
         Console.ForegroundColor = ConsoleColor.White;
+
+
     }
 
-    else
-    {
-        Console.WriteLine("Dina aktuella uppgifter:\n");
-        Console.WriteLine($"{"ID",-6} {"Deadline",-14} {"Tid",-8} {"Vad"}");
-        for (int i = 0; i < uppgifter.Length; i++)
-        {
-            SättFärg(uppgifter[i].Deadline, uppgifter[i].IsCompleted);
-            Console.WriteLine($"{i + 1 + ".",-6} {uppgifter[i].Deadline.ToShortDateString(),-14} {uppgifter[i].EstimatedHours + "h",-9}" +
-            $"{uppgifter[i].Task}");
 
-            Console.ForegroundColor = ConsoleColor.White;
-        }
-    }
 }
 
 void LäggTillFil() // skriver till .csv-filen
@@ -209,32 +235,78 @@ void LäsaFrånFil() // läser från .csv filen
     {
 
         StreamReader streamReader1 = new StreamReader(fil);
-        string? textLinje;
+        string? textLinje = "";
 
-        while ((textLinje = streamReader1.ReadLine()) != null)
+        try
         {
-            string[] splitText = textLinje.Split(";");
-
-            if (valideraInput(splitText[0], 1) && valideraInput(splitText[1], 2) && valideraInput(splitText[2], 3) && valideraInput(splitText[3], 6)) // Validera hela raden i inläsning innan den läggs till i vektorn
+            while ((textLinje = streamReader1.ReadLine()) != null)
             {
+                string[] splitText = textLinje.Split(";");
                 antalUppgifter++;
                 Array.Resize(ref uppgifter, antalUppgifter);
                 Uppgift nyUppgift = new Uppgift();
-                nyUppgift.Task = splitText[0];
-                nyUppgift.Deadline = DateTime.Parse(splitText[1]);
-                nyUppgift.EstimatedHours = double.Parse(splitText[2]);
-                nyUppgift.IsCompleted = bool.Parse(splitText[3]);
-                uppgifter[antalUppgifter - 1] = nyUppgift;
-            }
 
-            else
-            {
-                korrupt = true; //Felhanteringsbool
-                continue;
+                if (splitText.Length > 4)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"Man kan endast ha 4 fält i uppgift, var vänlig och ta bort ett fält i rad {antalUppgifter} i .csv-filen");
+                    Console.ForegroundColor = ConsoleColor.White;
+
+
+                }
+                if (!valideraInput(splitText[0], 1) || !valideraInput(splitText[1], 2) || !valideraInput(splitText[2], 3) || !valideraInput(splitText[3], 6))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"KORRUPTA RADER HAR UPPTÄCKTS. VÄNLIGEN ÅTGÄRDA RAD {antalUppgifter} I CSV.-FILEN");
+                    Console.ForegroundColor = ConsoleColor.White;
+
+                }
+
+                if (!valideraInput(splitText[0], 1))
+                {
+                    nyUppgift.Task = korruptBeskrivning;
+                }
+                else nyUppgift.Task = splitText[0];
+
+                if (!valideraInput(splitText[1], 2))
+                {
+                    nyUppgift.Deadline = DateTime.MinValue;
+                }
+                else nyUppgift.Deadline = DateTime.Parse(splitText[1]);
+
+                if (!valideraInput(splitText[2], 3))
+                {
+                    nyUppgift.EstimatedHours = double.Parse("-375");
+                }
+                else nyUppgift.EstimatedHours = double.Parse(splitText[2]);
+
+                if (!valideraInput(splitText[3], 6))
+                {
+                    nyUppgift.IsCompleted = false;
+                    korrupt = true;
+                }
+                else nyUppgift.IsCompleted = bool.Parse(splitText[3]); korrupt = false;
+
+                uppgifter[antalUppgifter - 1] = nyUppgift;
+
+
+
             }
+            streamReader1.Close();
+            SorteraEfterDatum();
+
         }
-        streamReader1.Close();
-        SorteraEfterDatum();
+        catch (IndexOutOfRangeException)
+        {
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("KORRUPT CSV-FIL: KONTROLLERA SÅ AT INTE FILEN INNEHÅLLER TOMMA RADER");
+            Console.ForegroundColor = ConsoleColor.White;
+
+        }
+
+
+
     }
     else
     {
@@ -301,7 +373,7 @@ int VäljUppgift() // väljer uppgift i vektorn utifrån användarens input
             }
             else
             {
-                Console.WriteLine($"Det finns ingen uppgift på plats {användarInput}");
+                Console.WriteLine($"Det finns ingen uppgift på plats {användarInput}."+" Vänligen uppgift som finns i listan");
             }
         }
         else

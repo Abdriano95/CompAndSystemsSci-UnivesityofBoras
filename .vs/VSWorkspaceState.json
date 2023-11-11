@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Programming Techniques in C# - C1PT1A"
+    "\\Programming Techniques in C# - C1PT1A",
+    "\\Programming Techniques in C# - C1PT1A\\Lab2-ToDoList",
+    "\\Programming Techniques in C# - C1PT1A\\Lab2-ToDoList\\bin",
+    "\\Programming Techniques in C# - C1PT1A\\Lab2-ToDoList\\bin\\Debug",
+    "\\Programming Techniques in C# - C1PT1A\\Lab2-ToDoList\\bin\\Release",
+    "\\Programming Techniques in C# - C1PT1A\\Lab2-ToDoList\\bin\\Release\\net6.0"
   ],
+  "SelectedNode": "\\Programming Techniques in C# - C1PT1A\\Lab2-ToDoList\\Lab2-ToDoList.csproj",
   "PreviewInSolutionExplorer": false
 }
