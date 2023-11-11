@@ -1,12 +1,10 @@
 ﻿bool appRun = true;
-bool korrupt = false;
-string korruptBeskrivning = "Korrupt beskrivning: Får inte vara tom, var vänlig och ändra till rätt format i .csv-filen";
-string korruptDeadLine = "ERROR";
-string korruptTidsåtgång = "ERROR)";
-string korruptKlar = "ERROR";
+string error = "ERROR";
+
 const string fil = "UppgiftLista.csv";
 Uppgift[] uppgifter = new Uppgift[0]; //Skapa en tom Uppgift array för att lagra uppgifter 
 int antalUppgifter = uppgifter.Length; // räknare 
+
 LäsaFrånFil(); // kallar på metoden vid uppstart där den antigen skapar csv.filen om den inte finns eller läser upp befintlig fil
 
 Console.WriteLine("Välkommen till ToDo-listan");
@@ -36,10 +34,10 @@ while (appRun) // Huvudprogrammet, appRun flaggan bestämmer om programmet körs
                         break;
 
                     }
-                    catch (IOException)
+                    catch (IOException) // Hanterar en exception då en användare vill lägga till uppgifter ovanpå tomma rader på csv filen
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("ERROR: Kan inte lägga till uppgifter ovanpå tomma rader i csv-filen!");
+                        Console.WriteLine("ERROR: Kan inte lägga till uppgifter ovanpå tomma rader i csv-filen och dina uppgifter kommer inte att sparas ! Vänligen åtgärda detta genom att ta bort alla tomma rader i filen!");
                         Console.ForegroundColor = ConsoleColor.White;
                         break;
                     }
@@ -65,10 +63,10 @@ while (appRun) // Huvudprogrammet, appRun flaggan bestämmer om programmet körs
                         }
 
                     }
-                    catch (IOException)
+                    catch (IOException) //  Hanterar en exception då en användare vill markera tomma uppgifter som klar
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("GÅ FIXA DINA TOMMA RADER INNAN DU MARKERAR EN UPPGIFSOM KLAR");
+                        Console.WriteLine("ERROR: Vänligen åtgärda din CSV fil. Får inte innehålla tomma rader");
                         Console.ForegroundColor = ConsoleColor.White;
                         break;
                     }
@@ -190,15 +188,14 @@ void VisaUppgifter() // Visa uppgifter i uppgift vektorn
 {
     string deadline = "";
     string tid = "";
-    string klar = "";
     Console.WriteLine("Dina aktuella uppgifter:\n");
     Console.WriteLine($"{"ID",-6} {"Deadline",-14} {"Tid",-8} {"Vad"}");
     for (int i = 0; i < uppgifter.Length; i++)
     {
-        if (uppgifter[i].Deadline == DateTime.MinValue) { deadline = uppgifter[i].Deadline.ToString(korruptDeadLine); }
+        if (uppgifter[i].Deadline == DateTime.MinValue) { deadline = uppgifter[i].Deadline.ToString(error); }
         else { deadline = uppgifter[i].Deadline.ToString("yyyy'-'MM'-'dd"); }
 
-        if (uppgifter[i].EstimatedHours == -375) { tid = uppgifter[i].EstimatedHours.ToString(korruptTidsåtgång); }
+        if (uppgifter[i].EstimatedHours == -375) { tid = uppgifter[i].EstimatedHours.ToString(error); }
         else { tid = uppgifter[i].EstimatedHours.ToString(); }
 
 
@@ -254,38 +251,45 @@ void LäsaFrånFil() // läser från .csv filen
 
 
                 }
-                if (!valideraInput(splitText[0], 1) || !valideraInput(splitText[1], 2) || !valideraInput(splitText[2], 3) || !valideraInput(splitText[3], 6))
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"KORRUPTA RADER HAR UPPTÄCKTS. VÄNLIGEN ÅTGÄRDA RAD {antalUppgifter} I CSV.-FILEN");
-                    Console.ForegroundColor = ConsoleColor.White;
-
-                }
+               
 
                 if (!valideraInput(splitText[0], 1))
                 {
-                    nyUppgift.Task = korruptBeskrivning;
+                    nyUppgift.Task = error;
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"ERROR: Vänliga åtgärda texten i första fältet på rad {antalUppgifter} i CSV-filen(Får inte innehålla tomma rader eller mellanslag)");
+                    Console.ForegroundColor = ConsoleColor.White;
+
                 }
                 else nyUppgift.Task = splitText[0];
 
                 if (!valideraInput(splitText[1], 2))
                 {
                     nyUppgift.Deadline = DateTime.MinValue;
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"ERROR: Vänliga åtgärda deadline i andra fältet på rad {antalUppgifter} i CSV-filen(Får inte innehålla tomma rader eller mellanslag, och måste ha formtatet ÅÅÅÅ-MM-DD)");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
                 else nyUppgift.Deadline = DateTime.Parse(splitText[1]);
 
                 if (!valideraInput(splitText[2], 3))
                 {
                     nyUppgift.EstimatedHours = double.Parse("-375");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"ERROR: Vänliga åtgärda tidsåtgången i tredje fältet på rad {antalUppgifter} i CSV-filen(Får inte innehålla tomma rader eller mellanslag, och måste ha formtatet ÅÅÅÅ-MM-DD)");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
                 else nyUppgift.EstimatedHours = double.Parse(splitText[2]);
 
                 if (!valideraInput(splitText[3], 6))
                 {
                     nyUppgift.IsCompleted = false;
-                    korrupt = true;
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"ERROR: Vänligen åtgära boolen i fjärde fäletet på rad {antalUppgifter} i CSV-filen (True/False med stor bokstav i början)");
+                    Console.ForegroundColor = ConsoleColor.White;
+
                 }
-                else nyUppgift.IsCompleted = bool.Parse(splitText[3]); korrupt = false;
+                else nyUppgift.IsCompleted = bool.Parse(splitText[3]);
 
                 uppgifter[antalUppgifter - 1] = nyUppgift;
 
