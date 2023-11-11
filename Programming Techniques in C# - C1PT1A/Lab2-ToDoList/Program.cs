@@ -37,7 +37,7 @@ while (appRun) // Huvudprogrammet, appRun flaggan bestämmer om programmet körs
                     catch (IOException) // Hanterar en exception då en användare vill lägga till uppgifter ovanpå tomma rader på csv filen
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("ERROR: Kan inte lägga till uppgifter ovanpå tomma rader i csv-filen och dina uppgifter kommer inte att sparas ! Vänligen åtgärda detta genom att ta bort alla tomma rader i filen!");
+                        Console.WriteLine("ERROR: Kan inte lägga till uppgifter ovanpå tomma rader i csv-filen och dina uppgifter kommer inte att sparas i filen efter programmet slutar att köras! Vänligen åtgärda detta genom att ta bort alla tomma rader i filen!");
                         Console.ForegroundColor = ConsoleColor.White;
                         break;
                     }
@@ -63,7 +63,7 @@ while (appRun) // Huvudprogrammet, appRun flaggan bestämmer om programmet körs
                         }
 
                     }
-                    catch (IOException) //  Hanterar en exception då en användare vill markera tomma uppgifter som klar
+                    catch (IOException) //  Hanterar en exception då en användare vill markera tomma uppgifter som klara
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("ERROR: Vänligen åtgärda din CSV fil. Får inte innehålla tomma rader");
@@ -128,7 +128,7 @@ void LäggTillNyUppgift() //Lägger till ny uppgift i uppgift vektorn
 
             if (valideraInput(inmatning, 1)) // Skriv uppgiftsbeskrivning 
             {
-                uppgift.Task = inmatning;
+                uppgift.Task = inmatning ?? "Default"; // ?? "Default" för att hantera error CS8601 
                 inmatning = null;
                 break;
             }
@@ -149,7 +149,7 @@ void LäggTillNyUppgift() //Lägger till ny uppgift i uppgift vektorn
 
             if (valideraInput(inmatning, 2))
             {
-                uppgift.Deadline = DateTime.Parse(inmatning);
+                uppgift.Deadline = DateTime.Parse(inmatning ?? "Default"); // ?? "Default" för att hantera error CS8601 
                 inmatning = null;
                 break;
             }
@@ -167,7 +167,7 @@ void LäggTillNyUppgift() //Lägger till ny uppgift i uppgift vektorn
 
             if (valideraInput(inmatning, 3))
             {
-                uppgift.EstimatedHours = double.Parse(inmatning);
+                uppgift.EstimatedHours = double.Parse(inmatning ?? "Default"); // ?? "Default" för att hantera error CS8601 
                 inmatning = null;
                 break;
             }
@@ -251,7 +251,6 @@ void LäsaFrånFil() // läser från .csv filen
 
 
                 }
-               
 
                 if (!valideraInput(splitText[0], 1))
                 {
@@ -304,7 +303,7 @@ void LäsaFrånFil() // läser från .csv filen
         {
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("KORRUPT CSV-FIL: KONTROLLERA SÅ AT INTE FILEN INNEHÅLLER TOMMA RADER");
+            Console.WriteLine("KORRUPT CSV-FIL: Kontrollera så att CSV-filen inte innehåller tomma rader. Ändringar du gör i programmet kommer inte att sparas efter avslutad körning.");
             Console.ForegroundColor = ConsoleColor.White;
 
         }
@@ -377,7 +376,7 @@ int VäljUppgift() // väljer uppgift i vektorn utifrån användarens input
             }
             else
             {
-                Console.WriteLine($"Det finns ingen uppgift på plats {användarInput}."+" Vänligen uppgift som finns i listan");
+                Console.WriteLine($"Det finns ingen uppgift på plats {användarInput}." + " Vänligen uppgift som finns i listan");
             }
         }
         else
