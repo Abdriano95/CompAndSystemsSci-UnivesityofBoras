@@ -12,8 +12,8 @@ This plan is for students starting the programme the fall semester 2023 and late
 **SP 1:** ✔️ [Information Systems and Data (C1ID1A)](https://github.com/Abdriano95/CompAndSystemsSci-UnivesityofBoras/tree/main/Information%20Systems%20and%20Data%20-%20C1ID1A) | ✔️ [Programming Techniques in C# (C1PT1A)](https://github.com/Abdriano95/CompAndSystemsSci-UnivesityofBoras/tree/main/Programming%20Techniques%20in%20C%23%20-%20C1PT1A)  
 **SP 2:** ✔️ System Analysis and Design (C1SD1A) | ✔️ 
 Database Management Systems for Software Developers (C1DB1A)  
-**SP 3:** ✔️ Trends in a Digital World | Fundamental Data Structures and Algorithms in C#  
-**SP 4:** Object-Oriented Programming in C# | Cybersecurity for Developers  
+**SP 3:** ✔️ Trends in a Digital World | ⏳ Fundamental Data Structures and Algorithms in C#  
+**SP 4:** ⏳ Object-Oriented Programming in C# | ⏳ Cybersecurity for Developers  
 
 ### Year 2
 **SP 1:** Development of Web Applications | Applied Machine Learning  
