@@ -13,7 +13,7 @@ This plan is for students starting the programme the fall semester 2023 and late
 **SP 2:** ✔️ System Analysis and Design (C1SD1A) | ✔️ 
 Database Management Systems for Software Developers (C1DB1A)  
 **SP 3:** ✔️ Trends in a Digital World | ✔️ Fundamental Data Structures and Algorithms in C#  
-**SP 4:** ⏳ Object-Oriented Programming in C# | ⏳ Cybersecurity for Developers  
+**SP 4:** ✔️ Object-Oriented Programming in C# | ✔️ Cybersecurity for Developers  
 
 ### Year 2
 **SP 1:** Development of Web Applications | Applied Machine Learning  
