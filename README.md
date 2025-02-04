@@ -16,7 +16,7 @@ Database Management Systems for Software Developers (C1DB1A)
 **SP 4:** ✔️ Object-Oriented Programming in C# | ✔️ Cybersecurity for Developers  
 
 ### Year 2
-**SP 1:** Development of Web Applications | Applied Machine Learning  
+**SP 1:** Development of Web Applications :heavy_check: | Applied Machine Learning  
 **SP 2:** Development of Mobile Applications | Testing of IT Systems  
 **SP 3:** Effective DevOps | Object-Oriented Software Development  
 **SP 4:** Fundamental Game Development with Unity | Change Management & Design of Information Systems  
