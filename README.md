@@ -21,7 +21,7 @@ Database Management Systems for Software Developers (C1DB1A)
 ### Year 2
 **SP 1:** Development of Web Applications ✔️ | Applied Machine Learning ✔️
 
-**SP 2:** Development of Mobile Applications ✔️| Testing of IT Systems :hourglass:
+**SP 2:** Development of Mobile Applications ✔️| Testing of IT Systems ✔️
 
 **SP 3:** DevOps: Continuous Development, Integration and Delivery ✔️| Object-Oriented Software Development :hourglass:
 
