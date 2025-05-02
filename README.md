@@ -23,7 +23,7 @@ Database Management Systems for Software Developers (C1DB1A)
 
 **SP 2:** Development of Mobile Applications ✔️| Testing of IT Systems ✔️
 
-**SP 3:** DevOps: Continuous Development, Integration and Delivery ✔️| Object-Oriented Software Development :hourglass:
+**SP 3:** DevOps: Continuous Development, Integration and Delivery ✔️| Object-Oriented Software Development ✔️
 
 **SP 4:** Fundamental Game Development with Unity :hourglass: | Change Management & Design of Information Systems :hourglass:
 
