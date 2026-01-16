@@ -29,8 +29,11 @@ Database Management Systems for Software Developers (C1DB1A)
 
 ### Year 3
 **SP 1:** ✔️ Data Visualization |✔️ Parallel and Distributed Programming
+
 **SP 2:** Software Development Project  ⌛
+
 **SP 3:** Application of AI Agents in Unity | Research Methods in IT  
+
 **SP 4:** Bachelor's Thesis in Informatics  
 
 
