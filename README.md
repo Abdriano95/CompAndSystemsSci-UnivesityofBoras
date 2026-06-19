@@ -34,7 +34,7 @@ Database Management Systems for Software Developers (C1DB1A)
 
 **SP 3:** Application of AI Agents in Unity ✔️ | Research Methods in IT ✔️
 
-**SP 4:** Bachelor's Thesis in Informatics  
+**SP 4:** Bachelor's Thesis in Informatics ✔️
 
 
 
