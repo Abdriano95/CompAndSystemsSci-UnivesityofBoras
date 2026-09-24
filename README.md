@@ -1,5 +1,5 @@
 # Computer and Systems Science, specialisation in Software Development
-This is my student repository from my program computer and systems science, specialisation in software development at the University of Borås
+This repository collects my coursework from the Computer and Systems Science programme, specialisation in software development, at the University of Borås (2023–2026).
 
 #### Study Plan for the Programme:
 ```
@@ -11,30 +11,29 @@ This plan is for students starting the programme the fall semester 2023 and late
 ### Year 1
 **SP 1:** ✔️ [Information Systems and Data (C1ID1A)](https://github.com/Abdriano95/CompAndSystemsSci-UnivesityofBoras/tree/main/Information%20Systems%20and%20Data%20-%20C1ID1A) | ✔️ [Programming Techniques in C# (C1PT1A)](https://github.com/Abdriano95/CompAndSystemsSci-UnivesityofBoras/tree/main/Programming%20Techniques%20in%20C%23%20-%20C1PT1A)
 
-**SP 2:** ✔️ System Analysis and Design (C1SD1A) | ✔️ 
-Database Management Systems for Software Developers (C1DB1A)
+**SP 2:** ✔️ System Analysis and Design (C1SD1A) | ✔️ Database Management Systems for Software Developers (C1DP1A)
 
-**SP 3:** ✔️ Trends in a Digital World | ✔️ Fundamental Data Structures and Algorithms in C#
+**SP 3:** ✔️ Trends in a Digital World (C1TR1A) | ✔️ Fundamental Data Structures and Algorithms in C# (C1GD1B)
 
-**SP 4:** ✔️ Object-Oriented Programming in C# | ✔️ Cybersecurity for Developers  
+**SP 4:** ✔️ Object-Oriented Programming in C# (C1OJ1B) | ✔️ Cybersecurity for Developers (C1CY1A)
 
 ### Year 2
-**SP 1:** ✔️ Development of Web Applications | ✔️ Applied Machine Learning 
+**SP 1:** ✔️ Development of Web Applications (C1UT1B) | ✔️ Applied Machine Learning (C1TM1B)
 
-**SP 2:** ✔️ Development of Mobile Applications | ✔️ Testing of IT Systems
+**SP 2:** ✔️ Development of Mobile Applications (C1UM1B) | ✔️ Testing of IT Systems (21TI1B)
 
-**SP 3:** ✔️ DevOps: Continuous Development, Integration and Delivery | ✔️ Object-Oriented Software Development 
+**SP 3:** ✔️ DevOps: Continuous Development, Integration and Delivery (C3DO1A) | ✔️ Object-Oriented Software Development (C1OJ2B)
 
-**SP 4:** ✔️ Fundamental Game Development with Unity | ✔️ Change Management & Design of Information Systems
+**SP 4:** ✔️ Fundamental Game Development with Unity (C1GS1B) | ✔️ Change Management & Design of Information Systems (21FD1B)
 
 ### Year 3
-**SP 1:** ✔️ Data Visualization |✔️ Parallel and Distributed Programming
+**SP 1:** ✔️ Data Visualization (C1VI1B) | ✔️ Parallel and Distributed Programming (C1PD2C)
 
-**SP 2:** Software Development Project  ✔️
+**SP 2:** ✔️ Software Development Project (C1PP2B)
 
-**SP 3:** Application of AI Agents in Unity ✔️ | Research Methods in IT ✔️
+**SP 3:** ✔️ Application of AI Agents in Unity (C1TAI1) | ✔️ Research Methods in IT (C1FO1C)
 
-**SP 4:** Bachelor's Thesis in Informatics ✔️
+**SP 4:** ✔️ Bachelor's Thesis in Informatics (21KI1C)
 
 
 
@@ -72,6 +71,8 @@ The program is divided into three years, each with a set of courses that build u
 ## Degree
 Upon completion, students can apply for the following degree:
 - Bachelor of Science with a Major in Informatics - Specialisation Software Development.
+
+✔️ I was awarded this degree in June 2026.
 
 ## Quality Assurance
 The program is subject to continuous evaluation to ensure quality. Each course and the program as a whole are evaluated annually, with feedback provided to students via the learning platform.
